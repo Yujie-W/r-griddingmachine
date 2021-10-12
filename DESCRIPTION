@@ -1,4 +1,4 @@
-Package: r-griddingmachine
+Package: griddingmachine
 Type: Package
 Version: 0.1.0
 Title: GriddingMachine - a database and tool for earth system modeling
@@ -6,7 +6,8 @@ Description: GriddingMachine provides convenient function to automactically
   download and read global scale datasets, as well as to request data by
   latitude and longitude directly from the server without downloading the
   datasets.
-Author: Yujie Wang
+Author: Yujie Wang (jesiner@gmail.com)
+Maintainer: Yujie Wang (jesiner@gmail.com)
 URL: https://github.com/Yujie-W/r-griddingmachine
 BugReports: https://github.com/Yujie-W/r-griddingmachine/issues
 License: Apache 2.0 LICENSE
