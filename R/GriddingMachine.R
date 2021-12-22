@@ -73,7 +73,7 @@ query_collection <- function(art_name) {
 }
 
 # function to request data from the server
-request_LUT <- function(art_name, lat, lon, cyc = 0, user = "Anonymous", interpolation = FALSE, server = "tofu.gps.caltech.edu", port = 5055) {
+request_LUT <- function(art_name, lat, lon, cyc = 0, user = "Anonymous", interpolation = FALSE, server = "griddingmachine.myftp.org", port = 5055) {
     if (is.element(art_name, GM_ARTS)) {
         # send a request to our web server
         if (interpolation) {
